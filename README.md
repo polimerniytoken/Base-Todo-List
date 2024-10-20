@@ -17,3 +17,12 @@ This project is a simple decentralized to-do list dApp built on the Base blockch
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/base-todo-list.git
+     cd base-todo-list
+   npm install
+   truffle migrate --network base_testnet
+   npm start
+
+   # Usage
+Open your browser and visit http://localhost:3000.
+Connect your MetaMask wallet to the Base Goerli Testnet.
+Add, view, and manage tasks on the decentralized to-do list.
